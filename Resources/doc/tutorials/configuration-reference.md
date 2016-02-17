@@ -24,6 +24,7 @@ customize your backends.
 
 * [easy_admin](#easy_admin)
   * [site_name](#site_name)
+  * [site_name_short](#site_name_short)
   * [formats](#formats)
     * [date](#date)
     * [time](#time)
@@ -76,6 +77,20 @@ easy_admin:
     site_name: '<strong>ACME</strong>'
     # ...
 ```
+
+### site_name_short
+
+(**default value**: none, **type**: string)
+
+The short name displayed as the title of the administration zone when the sidebar is collapsed (e.g. your company
+initials, etc.) Example:
+
+```yaml
+easy_admin:
+    site_name_short: 'ACME'
+    # ...
+```
+
 
 ### formats
 

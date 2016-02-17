@@ -7,6 +7,7 @@ framework:
 
 easy_admin:
     site_name: 'ACME Backend'
+    site_name_short: 'ACME'
     design:
         form_theme:   'horizontal'
         color_scheme: 'light'

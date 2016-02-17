@@ -5,6 +5,7 @@ imports:
 
 easy_admin:
     site_name: 'Second Site Name'
+    site_name: 'SSN'
     design:
         brand_color: 'blue'
     entities:

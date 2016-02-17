@@ -88,6 +88,7 @@
                 <h4>Basic Configuration</h4>
                 {{ collector.dump({
                     'site_name': collector.backendConfiguration['site_name'],
+                    'site_name_short': collector.backendConfiguration['site_name_short'],
                     'formats': collector.backendConfiguration['formats']
                 })|raw }}
 

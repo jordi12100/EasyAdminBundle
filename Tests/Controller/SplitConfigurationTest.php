@@ -25,6 +25,7 @@ class SplitConfigurationTest extends AbstractTestCase
         $this->assertEquals('Categories', $backendConfig['entities']['Category']['label']);
 
         $this->assertEquals('Second Site Name', $backendConfig['site_name']);
+        $this->assertEquals('SSN', $backendConfig['site_name_short']);
         $this->assertEquals('blue', $backendConfig['design']['brand_color']);
     }
 

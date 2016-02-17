@@ -164,6 +164,10 @@ class Configuration implements ConfigurationInterface
                     ->defaultValue('EasyAdmin')
                     ->info('The name displayed as the title of the administration zone (e.g. company name, project name).')
                 ->end()
+                ->scalarNode('site_name_short')
+                    ->info('The short name displayed as the title of the administration zone when the sidebar is collapsed (e.g. your company
+initials')
+                ->end()
 
                 ->arrayNode('formats')
                     ->addDefaultsIfNotSet()
